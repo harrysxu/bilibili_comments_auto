@@ -1,0 +1,1015 @@
+2025-07-02 20:16:07,758 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-02 20:16:07,758 - app.utils - INFO - 应用已成功启动！
+2025-07-02 20:18:17,971 - app.utils - INFO - 正在关闭应用...
+2025-07-02 20:18:17,971 - app.utils - INFO - 应用已关闭
+2025-07-02 20:19:48,201 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:21:57,848 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:24:22,476 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:27:43,070 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:29:45,352 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:30:32,757 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:31:03,713 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:37:55,456 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:39:09,522 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:43:49,736 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:44:59,968 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:45:00,165 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 20:45:00,168 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:45:23,412 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:45:23,512 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 20:45:23,516 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:48:17,941 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:48:18,032 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 20:48:18,036 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:49:33,184 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:49:33,306 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 20:49:33,309 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:50:45,150 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:50:45,236 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 20:50:45,240 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:52:50,240 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 获取评论失败: None
+2025-07-02 20:54:44,842 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 20:54:44,953 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-02 23:39:13,247 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-02 23:39:13,331 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:15:47,395 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 08:15:47,481 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:26:16,290 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:26:16,290 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:30:06,660 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 08:30:06,767 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:30:56,069 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:31:25,326 - app.bilibili.service - ERROR - 回复评论时发生错误: name 'comment' is not defined
+2025-07-03 08:34:08,767 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:34:08,767 - app.utils - INFO - 应用已关闭
+2025-07-03 08:34:09,172 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:34:09,172 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:34:09,456 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:34:09,456 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:34:17,533 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:34:17,533 - app.utils - INFO - 应用已关闭
+2025-07-03 08:34:19,538 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:34:19,538 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:34:31,664 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 08:34:31,736 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:34:34,550 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 08:34:34,551 - app.bilibili.service - ERROR - 回复评论失败: 未知错误
+2025-07-03 08:37:37,829 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:37:37,829 - app.utils - INFO - 应用已关闭
+2025-07-03 08:37:38,173 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:37:38,173 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:38:21,582 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:38:21,583 - app.utils - INFO - 应用已关闭
+2025-07-03 08:38:21,895 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:38:21,895 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:38:22,097 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:38:22,098 - app.utils - INFO - 应用已关闭
+2025-07-03 08:38:22,425 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 08:38:22,425 - app.utils - INFO - 应用已成功启动！
+2025-07-03 08:38:40,625 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 08:38:40,699 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:38:52,001 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:53:23,119 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:55:32,583 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 08:56:55,588 - app.utils - INFO - 正在关闭应用...
+2025-07-03 08:56:55,589 - app.utils - INFO - 应用已关闭
+2025-07-03 22:14:49,139 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 22:14:49,220 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:38:36,003 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 22:38:36,003 - app.utils - INFO - 应用已成功启动！
+2025-07-03 22:38:51,253 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 22:38:51,334 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:41:48,882 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:45:40,070 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:45:54,340 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:53:14,696 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 22:59:25,934 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:00:55,162 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:02:53,081 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:07:31,548 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:11:37,441 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:13:06,038 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:13:06,038 - app.utils - INFO - 应用已关闭
+2025-07-03 23:13:06,564 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:13:06,564 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:13:06,879 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:13:06,879 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:13:18,203 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:13:18,283 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:13:44,193 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:13:44,194 - app.utils - INFO - 应用已关闭
+2025-07-03 23:13:45,640 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:13:45,640 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:13:53,496 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:13:53,575 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:15:21,559 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:15:43,779 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:15:43,779 - app.utils - INFO - 应用已关闭
+2025-07-03 23:15:44,134 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:15:44,134 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:15:44,336 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:15:44,336 - app.utils - INFO - 应用已关闭
+2025-07-03 23:15:44,660 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:15:44,660 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:15:48,803 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:15:48,803 - app.utils - INFO - 应用已关闭
+2025-07-03 23:15:50,524 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:15:50,524 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:16:04,998 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:16:05,074 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:16:06,987 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:16:06,989 - app.bilibili.service - ERROR - 回复评论失败: 未知错误
+2025-07-03 23:18:16,040 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:19:31,119 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:22:24,864 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:22:42,025 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:22:47,179 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:22:47,181 - app.bilibili.service - ERROR - 回复评论失败: 未知错误
+2025-07-03 23:24:07,534 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:24:07,535 - app.utils - INFO - 应用已关闭
+2025-07-03 23:24:08,065 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:24:08,065 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:24:08,379 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:24:08,379 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:24:28,161 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:24:28,246 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:26:26,521 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:26:26,522 - app.utils - INFO - 应用已关闭
+2025-07-03 23:26:26,912 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:26:26,912 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:26:34,070 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:26:34,162 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:27:22,371 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:27:22,372 - app.utils - INFO - 应用已关闭
+2025-07-03 23:27:22,702 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:27:22,702 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:27:22,904 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:27:22,904 - app.utils - INFO - 应用已关闭
+2025-07-03 23:27:23,238 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:27:23,238 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:27:28,246 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:27:28,324 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:29:26,817 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:29:26,818 - app.utils - INFO - 应用已关闭
+2025-07-03 23:29:27,267 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:29:27,267 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:30:00,787 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:30:00,788 - app.utils - INFO - 应用已关闭
+2025-07-03 23:30:01,324 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:30:01,325 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:32:43,415 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:32:43,494 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:36:09,373 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:36:09,373 - app.utils - INFO - 应用已关闭
+2025-07-03 23:36:09,816 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:36:09,816 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:36:16,954 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:36:17,234 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:36:17,235 - app.bilibili.service - ERROR - 回复评论失败: 未知错误
+2025-07-03 23:36:55,349 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:36:55,349 - app.utils - INFO - 应用已关闭
+2025-07-03 23:36:55,669 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:36:55,669 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:37:01,027 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:37:01,108 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:37:07,754 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:37:47,540 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:37:56,692 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:39:22,506 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:39:22,507 - app.utils - INFO - 应用已关闭
+2025-07-03 23:39:22,975 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:39:22,975 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:39:40,742 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:39:40,742 - app.utils - INFO - 应用已关闭
+2025-07-03 23:39:41,041 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:39:41,041 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:40:01,244 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:40:01,244 - app.utils - INFO - 应用已关闭
+2025-07-03 23:40:01,626 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:40:01,626 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:40:58,907 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:40:58,988 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:41:03,312 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:41:03,313 - app.bilibili.service - ERROR - 回复评论失败: 未知错误
+2025-07-03 23:42:09,707 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:42:09,708 - app.utils - INFO - 应用已关闭
+2025-07-03 23:42:10,211 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:42:10,211 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:44:50,880 - app.utils - INFO - 正在关闭应用...
+2025-07-03 23:44:50,881 - app.utils - INFO - 应用已关闭
+2025-07-03 23:44:51,388 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:44:51,388 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:44:51,697 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-03 23:44:51,697 - app.utils - INFO - 应用已成功启动！
+2025-07-03 23:45:52,704 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-03 23:45:52,795 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:46:23,094 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:46:26,583 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:46:26,585 - app.bilibili.service - INFO - 成功回复评论 267526012432: 感谢您的支持！很高兴您喜欢内容！, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 266431626561, 'rpid_str': '266431626561', 'dialog': 266431626561, 'dialog_str': '266431626561', 'root': 267526012432, 'root_str': '267526012432', 'parent': 267526012432, 'parent_str': '267526012432', 'reply': {'rpid': 266431626561, 'oid': 114404221782479, 'type': 1, 'mid': 3546729949432630, 'root': 267526012432, 'parent': 267526012432, 'dialog': 266431626561, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751557586, 'mid_str': '3546729949432630', 'oid_str': '114404221782479', 'rpid_str': '266431626561', 'root_str': '267526012432', 'parent_str': '267526012432', 'dialog_str': '266431626561', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的支持！很高兴您喜欢内容！', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-03 23:47:25,772 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:48:32,551 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:52:17,377 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-03 23:52:21,121 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-03 23:52:21,122 - app.bilibili.service - INFO - 成功回复评论 267528646704: 感谢您的支持和认可！很高兴能对您有所帮助。, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 267528605808, 'rpid_str': '267528605808', 'dialog': 267528605808, 'dialog_str': '267528605808', 'root': 267528646704, 'root_str': '267528646704', 'parent': 267528646704, 'parent_str': '267528646704', 'reply': {'rpid': 267528605808, 'oid': 114404221782479, 'type': 1, 'mid': 3546729949432630, 'root': 267528646704, 'parent': 267528646704, 'dialog': 267528605808, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751557941, 'mid_str': '3546729949432630', 'oid_str': '114404221782479', 'rpid_str': '267528605808', 'root_str': '267528646704', 'parent_str': '267528646704', 'dialog_str': '267528605808', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的支持和认可！很高兴能对您有所帮助。', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-04 00:06:45,788 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-04 00:06:49,417 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-04 00:06:49,419 - app.bilibili.service - INFO - 成功回复评论 267529737344: 非常感谢您的支持和认可！很高兴这个内容对您有帮助！, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 267529887744, 'rpid_str': '267529887744', 'dialog': 267529887744, 'dialog_str': '267529887744', 'root': 267529737344, 'root_str': '267529737344', 'parent': 267529737344, 'parent_str': '267529737344', 'reply': {'rpid': 267529887744, 'oid': 114404221782479, 'type': 1, 'mid': 3546729949432630, 'root': 267529737344, 'parent': 267529737344, 'dialog': 267529887744, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751558809, 'mid_str': '3546729949432630', 'oid_str': '114404221782479', 'rpid_str': '267529887744', 'root_str': '267529737344', 'parent_str': '267529737344', 'dialog_str': '267529887744', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '非常感谢您的支持和认可！很高兴这个内容对您有帮助！', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-05 16:11:33,109 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:11:33,109 - app.utils - INFO - 应用已关闭
+2025-07-05 16:11:52,526 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:11:52,526 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:11:52,729 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:11:52,729 - app.utils - INFO - 应用已关闭
+2025-07-05 16:11:53,043 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:11:53,043 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:11:56,174 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:11:56,175 - app.utils - INFO - 应用已关闭
+2025-07-05 16:11:57,936 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:11:57,936 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:15:42,364 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:15:42,364 - app.utils - INFO - 应用已关闭
+2025-07-05 16:15:42,755 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:15:42,755 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:15:47,904 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:15:47,904 - app.utils - INFO - 应用已关闭
+2025-07-05 16:15:48,216 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:15:48,216 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:15:49,630 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:15:49,631 - app.utils - INFO - 应用已关闭
+2025-07-05 16:15:49,933 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:15:49,933 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:16:10,727 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:16:10,727 - app.utils - INFO - 应用已关闭
+2025-07-05 16:16:11,040 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:16:11,040 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:16:12,454 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:16:12,454 - app.utils - INFO - 应用已关闭
+2025-07-05 16:16:12,755 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:16:12,755 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:16:37,999 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:16:37,999 - app.utils - INFO - 应用已关闭
+2025-07-05 16:16:38,310 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:16:38,311 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:16:39,725 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:16:39,725 - app.utils - INFO - 应用已关闭
+2025-07-05 16:16:40,019 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:16:40,019 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:16:59,000 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:16:59,000 - app.utils - INFO - 应用已关闭
+2025-07-05 16:16:59,311 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:16:59,311 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:17:00,725 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:17:00,726 - app.utils - INFO - 应用已关闭
+2025-07-05 16:17:01,019 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:17:01,019 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:17:37,463 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:17:37,464 - app.utils - INFO - 应用已关闭
+2025-07-05 16:17:37,834 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:17:37,834 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:18:27,366 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 16:18:27,366 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 16:18:27,366 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 16:18:27,632 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-05 16:18:27,711 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:27,712 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:27,929 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:27,931 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:28,156 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:28,157 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:28,390 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:28,391 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:28,414 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 16:18:28,416 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 16:18:28,416 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "92e8b41f-c212-4d1d-8da0-f5ea236f67c5",
+  "workflow_run_id": "ba47d180-4266-42e2-b845-f7c19cc6cf6d",
+  "data": {
+    "id": "ba47d180-4266-42e2-b845-f7c19cc6cf6d",
+    "workflow_id": "cdb0e36b-bd7d-416f-8531-d4932c44fa0b",
+    "status": "failed",
+    "outputs": {},
+    "error": "Reached maximum retries (0) for URL http://host.docker.internal:8000/api/comments/unreplied",
+    "elapsed_time": 0.948195,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751703507,
+    "finished_at": 1751703508
+  }
+}
+2025-07-05 16:18:43,724 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 16:18:43,726 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每1小时)" to job store "default"
+2025-07-05 16:18:43,727 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 16:18:43,727 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每1小时执行一次
+2025-07-05 16:18:43,727 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 16:18:43,727 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 16:18:43,727 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 16:18:43,947 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:43,948 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:44,195 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:44,196 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:44,415 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:44,416 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:44,655 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:44,657 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:44,674 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 16:18:44,674 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 16:18:44,674 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "71e7fa2a-1b96-4b17-aaeb-444e4be0a841",
+  "workflow_run_id": "9ab5aa02-254c-44a5-9c02-01dec717884a",
+  "data": {
+    "id": "9ab5aa02-254c-44a5-9c02-01dec717884a",
+    "workflow_id": "cdb0e36b-bd7d-416f-8531-d4932c44fa0b",
+    "status": "failed",
+    "outputs": {},
+    "error": "Reached maximum retries (0) for URL http://host.docker.internal:8000/api/comments/unreplied",
+    "elapsed_time": 0.860231,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751703523,
+    "finished_at": 1751703524
+  }
+}
+2025-07-05 16:18:44,676 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 16:18:55,120 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 16:18:55,120 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 16:18:55,120 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 16:18:55,315 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:55,316 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:55,543 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:55,544 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:55,759 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:55,761 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:55,967 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:18:55,969 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:18:55,979 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 16:18:55,980 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 16:18:55,980 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "4e19da2b-983f-45bc-89b0-f9770f712a19",
+  "workflow_run_id": "b4fe17f2-9931-4bf6-8c59-d6526b8a9c81",
+  "data": {
+    "id": "b4fe17f2-9931-4bf6-8c59-d6526b8a9c81",
+    "workflow_id": "cdb0e36b-bd7d-416f-8531-d4932c44fa0b",
+    "status": "failed",
+    "outputs": {},
+    "error": "Reached maximum retries (0) for URL http://host.docker.internal:8000/api/comments/unreplied",
+    "elapsed_time": 0.783108,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751703535,
+    "finished_at": 1751703535
+  }
+}
+2025-07-05 16:19:19,067 - app.utils - INFO - 🛑 Dify workflow调度器已停止
+2025-07-05 16:19:19,067 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-07-05 16:19:24,389 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:19:24,390 - app.utils - WARNING - 调度器未运行
+2025-07-05 16:19:24,390 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 16:19:24,390 - app.utils - INFO - 应用已关闭
+2025-07-05 16:23:07,931 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:23:07,931 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:25:11,613 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:25:11,614 - app.utils - WARNING - 调度器未运行
+2025-07-05 16:25:11,614 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 16:25:11,614 - app.utils - INFO - 应用已关闭
+2025-07-05 16:25:12,032 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:25:12,032 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:25:20,612 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:25:20,612 - app.utils - WARNING - 调度器未运行
+2025-07-05 16:25:20,613 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 16:25:20,613 - app.utils - INFO - 应用已关闭
+2025-07-05 16:25:31,240 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 16:25:31,240 - app.utils - INFO - 应用已成功启动！
+2025-07-05 16:25:33,721 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 16:25:33,721 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 16:25:33,721 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 16:25:33,809 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 16:25:33,809 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 16:25:33,810 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "42b7433a-1eed-4099-b4c8-3f7d3065f637",
+  "workflow_run_id": "48511298-7af7-47e2-9906-899b911bc60b",
+  "data": {
+    "id": "48511298-7af7-47e2-9906-899b911bc60b",
+    "workflow_id": "f843b594-977f-4a5b-989e-9405921ae77a",
+    "status": "succeeded",
+    "outputs": {
+      "result": "执行成功"
+    },
+    "error": "",
+    "elapsed_time": 0.012111,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751703933,
+    "finished_at": 1751703933
+  }
+}
+2025-07-05 16:25:33,946 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-05 16:25:34,015 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 16:25:34,015 - app.bilibili.service - ERROR - 获取未回复评论时发生错误: 接口返回错误代码：-101，信息：账号未登录。
+{'code': -101, 'message': '账号未登录', 'ttl': 1}
+2025-07-05 16:25:40,206 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 16:25:40,206 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 16:25:40,206 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 16:25:40,283 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 16:25:40,283 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 16:25:40,283 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "4d94cdad-a3ce-4283-8180-1c703f0fc47d",
+  "workflow_run_id": "966a4338-ded5-41a5-ae2e-3f4ba106c609",
+  "data": {
+    "id": "966a4338-ded5-41a5-ae2e-3f4ba106c609",
+    "workflow_id": "f843b594-977f-4a5b-989e-9405921ae77a",
+    "status": "succeeded",
+    "outputs": {
+      "result": "执行成功"
+    },
+    "error": "",
+    "elapsed_time": 0.010379,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751703940,
+    "finished_at": 1751703940
+  }
+}
+2025-07-05 16:25:46,608 - app.utils - INFO - 正在关闭应用...
+2025-07-05 16:25:46,608 - app.utils - WARNING - 调度器未运行
+2025-07-05 16:25:46,608 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 16:25:46,608 - app.utils - INFO - 应用已关闭
+2025-07-05 22:26:10,762 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 22:26:10,762 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:26:10,762 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:26:10,880 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:26:10,880 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:26:10,880 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "9f53a9bb-a1e1-451d-a480-e824a2ba7b3c",
+  "workflow_run_id": "181f9a6b-11bc-4fba-b1f1-265907190d6c",
+  "data": {
+    "id": "181f9a6b-11bc-4fba-b1f1-265907190d6c",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.02586,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751725570,
+    "finished_at": 1751725570
+  }
+}
+2025-07-05 22:26:51,994 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:26:51,994 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:26:58,037 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 22:26:58,038 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每1小时)" to job store "default"
+2025-07-05 22:26:58,038 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 22:26:58,038 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每1小时执行一次
+2025-07-05 22:26:58,039 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 22:26:58,039 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:26:58,039 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:26:58,145 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:26:58,146 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:26:58,146 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "63f1945b-1456-4060-82a5-a4c30ea5ab0d",
+  "workflow_run_id": "5275abb0-4db1-4cbe-959a-7df377ebde1b",
+  "data": {
+    "id": "5275abb0-4db1-4cbe-959a-7df377ebde1b",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.011577,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751725618,
+    "finished_at": 1751725618
+  }
+}
+2025-07-05 22:26:58,147 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 22:27:09,250 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 22:27:09,250 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:27:09,250 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:27:09,379 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:27:09,379 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:27:09,379 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "dc22f760-d67e-4c5d-bf41-a3451d08b36b",
+  "workflow_run_id": "4cf89ce1-45fc-4ede-b3c0-b1d2aa6471c1",
+  "data": {
+    "id": "4cf89ce1-45fc-4ede-b3c0-b1d2aa6471c1",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.013151,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751725629,
+    "finished_at": 1751725629
+  }
+}
+2025-07-05 22:27:50,016 - app.utils - INFO - 🛑 Dify workflow调度器已停止
+2025-07-05 22:27:50,016 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-07-05 22:27:56,247 - app.utils - INFO - 正在关闭应用...
+2025-07-05 22:27:56,247 - app.utils - INFO - 应用已关闭
+2025-07-05 22:28:03,130 - app.utils - INFO - 执行手动Dify workflow调用
+2025-07-05 22:28:03,130 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:28:03,130 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:28:03,224 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:28:03,224 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:28:03,224 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "4646fa94-fc85-45b6-acdb-522d191e6c0a",
+  "workflow_run_id": "804464d7-1f4e-49a3-a732-384fbb6666a8",
+  "data": {
+    "id": "804464d7-1f4e-49a3-a732-384fbb6666a8",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.015064,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751725683,
+    "finished_at": 1751725683
+  }
+}
+2025-07-05 22:28:03,227 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 22:28:03,227 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每0.08333333333333333小时)" to job store "default"
+2025-07-05 22:28:03,227 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 22:28:03,227 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每0小时执行一次
+2025-07-05 22:28:03,227 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 22:28:03,227 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:28:03,227 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:28:03,299 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:28:03,299 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:28:03,299 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "6c9a38f6-37b6-4d67-adfb-5b0fb3bcc6b0",
+  "workflow_run_id": "b0ebb726-7700-4e84-ba64-07cd664e54d8",
+  "data": {
+    "id": "b0ebb726-7700-4e84-ba64-07cd664e54d8",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.009394,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751725683,
+    "finished_at": 1751725683
+  }
+}
+2025-07-05 22:28:03,301 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 22:28:13,228 - app.utils - INFO - 🛑 Dify workflow调度器已停止
+2025-07-05 22:28:13,228 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-07-05 22:35:24,335 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:35:24,335 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:36:30,843 - app.utils - INFO - 正在关闭应用...
+2025-07-05 22:36:30,843 - app.utils - INFO - 应用已关闭
+2025-07-05 22:36:31,214 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:36:31,214 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:36:33,537 - app.utils - INFO - 正在关闭应用...
+2025-07-05 22:36:33,537 - app.utils - INFO - 应用已关闭
+2025-07-05 22:45:22,102 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:45:22,102 - app.utils - INFO - 正在启动Dify workflow定时调度器...
+2025-07-05 22:45:22,103 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 22:45:22,103 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每1小时)" to job store "default"
+2025-07-05 22:45:22,103 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 22:45:22,103 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每1小时执行一次
+2025-07-05 22:45:22,103 - app.utils - INFO - 🎯 Dify workflow调度器已自动启动，每1小时执行一次
+2025-07-05 22:45:22,103 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:45:22,103 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 22:45:22,103 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:45:22,103 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:45:22,149 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 401 UNAUTHORIZED"
+2025-07-05 22:45:22,149 - app.utils - INFO - Dify API响应状态码: 401
+2025-07-05 22:45:22,149 - app.utils - ERROR - Dify API调用失败，状态码: 401
+2025-07-05 22:45:22,149 - app.utils - ERROR - 响应内容: {"code": "unauthorized", "message": "Access token is invalid", "status": 401}
+
+2025-07-05 22:45:22,150 - app.utils - ERROR - ❌ 定时Dify workflow调用失败: Dify API调用失败，状态码: 401
+2025-07-05 22:50:30,927 - app.utils - INFO - 正在关闭应用...
+2025-07-05 22:50:30,927 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 22:50:30,927 - app.utils - INFO - 应用已关闭
+2025-07-05 22:50:30,927 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-07-05 22:50:33,217 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:50:33,218 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 22:50:33,218 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每1小时)" to job store "default"
+2025-07-05 22:50:33,218 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 22:50:33,218 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每1小时执行一次
+2025-07-05 22:50:33,218 - app.utils - INFO - ✅ Dify定时调度器启动成功
+2025-07-05 22:50:33,219 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:50:33,219 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 22:50:33,219 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:50:33,219 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:50:33,283 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:50:33,283 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:50:33,283 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "0cbee6ce-797c-415d-9cd6-5c1986044012",
+  "workflow_run_id": "a4b428d9-1059-4098-b48e-0ca31dcb6f05",
+  "data": {
+    "id": "a4b428d9-1059-4098-b48e-0ca31dcb6f05",
+    "workflow_id": "ec41c4ca-3cdf-4455-96e8-a08f72d1e6cc",
+    "status": "succeeded",
+    "outputs": {
+      "result": "调用成功"
+    },
+    "error": "",
+    "elapsed_time": 0.008013,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1751727033,
+    "finished_at": 1751727033
+  }
+}
+2025-07-05 22:50:33,284 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 22:50:56,881 - app.utils - INFO - 正在关闭应用...
+2025-07-05 22:50:56,881 - app.utils - INFO - ✅ Dify调度器已停止
+2025-07-05 22:50:56,881 - app.utils - INFO - 应用已关闭
+2025-07-05 22:50:56,881 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-07-05 22:51:41,961 - app.utils - INFO - Bilibili API Server 正在启动...
+2025-07-05 22:51:41,961 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-05 22:51:41,962 - apscheduler.scheduler - INFO - Added job "Dify Workflow定时执行 (每1小时)" to job store "default"
+2025-07-05 22:51:41,962 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-05 22:51:41,962 - app.utils - INFO - 🎯 Dify workflow调度器已启动，每1小时执行一次
+2025-07-05 22:51:41,962 - app.utils - INFO - ✅ Dify定时调度器启动成功
+2025-07-05 22:51:41,962 - app.utils - INFO - 应用已成功启动！
+2025-07-05 22:51:41,962 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 22:51:41,962 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 22:51:41,962 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 22:51:42,196 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/frontend/finger/spi "HTTP/1.1 200 OK"
+2025-07-05 22:51:42,276 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 22:51:49,621 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-05 22:51:49,622 - app.bilibili.service - INFO - 成功回复评论 267730933152: 感谢您的支持！很高兴能对您有所帮助！, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 266630681649, 'rpid_str': '266630681649', 'dialog': 266630681649, 'dialog_str': '266630681649', 'root': 267730933152, 'root_str': '267730933152', 'parent': 267730933152, 'parent_str': '267730933152', 'reply': {'rpid': 266630681649, 'oid': 114402325957080, 'type': 1, 'mid': 3546729949432630, 'root': 267730933152, 'parent': 267730933152, 'dialog': 266630681649, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751727109, 'mid_str': '3546729949432630', 'oid_str': '114402325957080', 'rpid_str': '266630681649', 'root_str': '267730933152', 'parent_str': '267730933152', 'dialog_str': '266630681649', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的支持！很高兴能对您有所帮助！', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-05 22:51:53,935 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-05 22:51:53,936 - app.bilibili.service - INFO - 成功回复评论 266570189025: 感谢您的认可！能帮到您真是太好了！Gemini和Gamma的组合确实能提升效率呢~, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 266630626081, 'rpid_str': '266630626081', 'dialog': 266630626081, 'dialog_str': '266630626081', 'root': 266570189025, 'root_str': '266570189025', 'parent': 266570189025, 'parent_str': '266570189025', 'reply': {'rpid': 266630626081, 'oid': 114681112956436, 'type': 1, 'mid': 3546729949432630, 'root': 266570189025, 'parent': 266570189025, 'dialog': 266630626081, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751727113, 'mid_str': '3546729949432630', 'oid_str': '114681112956436', 'rpid_str': '266630626081', 'root_str': '266570189025', 'parent_str': '266570189025', 'dialog_str': '266630626081', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的认可！能帮到您真是太好了！Gemini和Gamma的组合确实能提升效率呢~', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-05 22:51:54,099 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 22:51:54,099 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 22:51:54,100 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "fe7b8eb4-77ea-4f54-8758-bb9a06cdcb31",
+  "workflow_run_id": "a17a81f2-f1b0-455c-abe7-c99b81ce1820",
+  "data": {
+    "id": "a17a81f2-f1b0-455c-abe7-c99b81ce1820",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了新评论。\n评论内容：'求文档！'\n\nAI建议：用户请求相关文档，建议UP主核实是否有可分享的文档资源，并决定是否以及如何提供。\n\n请参考AI建议，及时处理评论。",
+        "【UP主提示】\n\n您的视频《初识MCP》收到了一条来自“温柔宁静”的新评论。\n评论内容：'感觉UP主讲的很好，感谢。'\n\n系统已自动回复：'感谢您的支持！很高兴能对您有所帮助！'\n\n请关注评论区，必要时可进一步互动。",
+        "【UP主提示】\n\n您的视频《【效率核弹】我用AI 20分钟做完了一周的PPT！Gemini + Gamma 这套组合拳，简直无敌！》收到了一条来自“易玄牌锅巴”的新评论。\n评论内容：'这个很不错啊，居然有信息图表，比很多写网页充当PPT的ai强多了'\n\n系统已自动回复：'感谢您的认可！能帮到您真是太好了！Gemini和Gamma的组合确实能提升效率呢~'\n\n请关注评论区，必要时可进一步互动。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 12.07388,
+    "total_tokens": 2077,
+    "total_steps": 29,
+    "created_at": 1751727102,
+    "finished_at": 1751727114
+  }
+}
+2025-07-05 22:51:54,104 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 23:51:41,995 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 00:51:41 CST)" (scheduled at 2025-07-05 23:51:41.961822+08:00)
+2025-07-05 23:51:41,998 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-05 23:51:41,998 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-05 23:51:41,998 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-05 23:51:42,253 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-05 23:51:46,594 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-05 23:51:46,595 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-05 23:51:46,595 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "418af0aa-84f2-4d8d-8c97-0eca93c939c5",
+  "workflow_run_id": "33ae84cc-fd18-4122-966d-a73ebc8cb1d2",
+  "data": {
+    "id": "33ae84cc-fd18-4122-966d-a73ebc8cb1d2",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了新评论。\n评论内容：'求文档！'\n\nAI建议：用户请求MCP相关文档，建议UP主确认是否有相关文档可分享，并询问用户具体需要的文档内容。\n\n请参考AI建议，及时处理评论。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 4.485249,
+    "total_tokens": 685,
+    "total_steps": 13,
+    "created_at": 1751730702,
+    "finished_at": 1751730706
+  }
+}
+2025-07-05 23:51:46,598 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-05 23:51:46,599 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 00:51:41 CST)" executed successfully
+2025-07-06 00:51:41,964 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 01:51:41 CST)" (scheduled at 2025-07-06 00:51:41.961822+08:00)
+2025-07-06 00:51:41,965 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 00:51:41,965 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 00:51:41,966 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 00:51:42,248 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 00:51:45,855 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-06 00:51:45,858 - app.bilibili.service - INFO - 成功回复评论 267730944528: 感谢您的关注！相关文档已经整理好并放在视频描述中了，请查收！, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 267743881280, 'rpid_str': '267743881280', 'dialog': 267743881280, 'dialog_str': '267743881280', 'root': 267730944528, 'root_str': '267730944528', 'parent': 267730944528, 'parent_str': '267730944528', 'reply': {'rpid': 267743881280, 'oid': 114402325957080, 'type': 1, 'mid': 3546729949432630, 'root': 267730944528, 'parent': 267730944528, 'dialog': 267743881280, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751734305, 'mid_str': '3546729949432630', 'oid_str': '114402325957080', 'rpid_str': '267743881280', 'root_str': '267730944528', 'parent_str': '267730944528', 'dialog_str': '267743881280', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的关注！相关文档已经整理好并放在视频描述中了，请查收！', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-06 00:51:46,078 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 00:51:46,078 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 00:51:46,078 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "c56af2ab-4470-4b95-9c09-bf8992b57295",
+  "workflow_run_id": "3dd5b34e-d34f-4827-8c67-30364e3c57e5",
+  "data": {
+    "id": "3dd5b34e-d34f-4827-8c67-30364e3c57e5",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了一条来自“温柔宁静”的新评论。\n评论内容：'求文档！'\n\n系统已自动回复：'感谢您的关注！相关文档已经整理好并放在视频描述中了，请查收！'\n\n请关注评论区，必要时可进一步互动。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 3.977401,
+    "total_tokens": 679,
+    "total_steps": 14,
+    "created_at": 1751734302,
+    "finished_at": 1751734306
+  }
+}
+2025-07-06 00:51:46,082 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 00:51:46,082 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 01:51:41 CST)" executed successfully
+2025-07-06 01:51:42,053 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 02:51:41 CST)" (scheduled at 2025-07-06 01:51:41.961822+08:00)
+2025-07-06 01:51:42,053 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 01:51:42,053 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 01:51:42,053 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 01:51:42,297 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 01:51:46,096 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 01:51:46,097 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 01:51:46,097 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "7b06e443-3911-4e6c-8a19-8b96b4ba97d6",
+  "workflow_run_id": "f5862ce7-7b86-49c5-ba28-473e5c386438",
+  "data": {
+    "id": "f5862ce7-7b86-49c5-ba28-473e5c386438",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了新评论。\n评论内容：'求文档！'\n\nAI建议：用户请求MCP相关文档，建议UP主提供文档链接或说明如何获取文档。\n\n请参考AI建议，及时处理评论。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 3.934155,
+    "total_tokens": 679,
+    "total_steps": 13,
+    "created_at": 1751737902,
+    "finished_at": 1751737906
+  }
+}
+2025-07-06 01:51:46,101 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 01:51:46,101 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 02:51:41 CST)" executed successfully
+2025-07-06 02:51:41,964 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 03:51:41 CST)" (scheduled at 2025-07-06 02:51:41.961822+08:00)
+2025-07-06 02:51:41,964 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 02:51:41,964 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 02:51:41,964 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 02:51:42,209 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 02:51:45,624 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 02:51:45,625 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 02:51:45,626 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "a4ded88f-220c-4d17-9811-72fdf1e7f652",
+  "workflow_run_id": "37b147dc-2c97-4db5-ad41-c87b036dcf7c",
+  "data": {
+    "id": "37b147dc-2c97-4db5-ad41-c87b036dcf7c",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了新评论。\n评论内容：'求文档！'\n\nAI建议：用户请求MCP相关文档，建议UP主提供官方文档链接或说明获取方式。\n\n请参考AI建议，及时处理评论。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 3.553719,
+    "total_tokens": 679,
+    "total_steps": 13,
+    "created_at": 1751741502,
+    "finished_at": 1751741505
+  }
+}
+2025-07-06 02:51:45,629 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 02:51:45,629 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 03:51:41 CST)" executed successfully
+2025-07-06 03:51:42,026 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 04:51:41 CST)" (scheduled at 2025-07-06 03:51:41.961822+08:00)
+2025-07-06 03:51:42,026 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 03:51:42,026 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 03:51:42,026 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 03:51:42,275 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 03:51:45,896 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-06 03:51:45,898 - app.bilibili.service - INFO - 成功回复评论 267730944528: 您可以查看视频简介或评论区置顶获取相关文档链接哦！如果还有其他问题随时告诉我~, {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 267751806240, 'rpid_str': '267751806240', 'dialog': 267751806240, 'dialog_str': '267751806240', 'root': 267730944528, 'root_str': '267730944528', 'parent': 267730944528, 'parent_str': '267730944528', 'reply': {'rpid': 267751806240, 'oid': 114402325957080, 'type': 1, 'mid': 3546729949432630, 'root': 267730944528, 'parent': 267730944528, 'dialog': 267751806240, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751745105, 'mid_str': '3546729949432630', 'oid_str': '114402325957080', 'rpid_str': '267751806240', 'root_str': '267730944528', 'parent_str': '267730944528', 'dialog_str': '267751806240', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '您可以查看视频简介或评论区置顶获取相关文档链接哦！如果还有其他问题随时告诉我~', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'time_desc': '1秒前发布', 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-06 03:51:46,090 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 03:51:46,091 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 03:51:46,091 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "dd89efcc-347f-403d-824c-3d6c3b73af37",
+  "workflow_run_id": "c968db21-56cf-409b-aa0c-c38c427e4303",
+  "data": {
+    "id": "c968db21-56cf-409b-aa0c-c38c427e4303",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《初识MCP》收到了一条来自“温柔宁静”的新评论。\n评论内容：'求文档！'\n\n系统已自动回复：'您可以查看视频简介或评论区置顶获取相关文档链接哦！如果还有其他问题随时告诉我~'\n\n请关注评论区，必要时可进一步互动。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 3.956754,
+    "total_tokens": 680,
+    "total_steps": 14,
+    "created_at": 1751745102,
+    "finished_at": 1751745106
+  }
+}
+2025-07-06 03:51:46,095 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 03:51:46,096 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 04:51:41 CST)" executed successfully
+2025-07-06 04:51:41,963 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 05:51:41 CST)" (scheduled at 2025-07-06 04:51:41.961822+08:00)
+2025-07-06 04:51:41,964 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 04:51:41,964 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 04:51:41,964 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 04:51:42,191 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 04:51:42,255 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 04:51:42,255 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 04:51:42,255 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "7869b0de-f302-42ed-87fe-776066b48161",
+  "workflow_run_id": "fa3e40fa-528e-40d6-b0dc-d934d9156a19",
+  "data": {
+    "id": "fa3e40fa-528e-40d6-b0dc-d934d9156a19",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.208912,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751748702,
+    "finished_at": 1751748702
+  }
+}
+2025-07-06 04:51:42,256 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 04:51:42,257 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 05:51:41 CST)" executed successfully
+2025-07-06 05:51:42,196 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 06:51:41 CST)" (scheduled at 2025-07-06 05:51:41.961822+08:00)
+2025-07-06 05:51:42,198 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 05:51:42,198 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 05:51:42,198 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 05:51:42,456 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 05:51:42,517 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 05:51:42,518 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 05:51:42,518 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "825c0cd6-fdbc-4ef2-9351-a0faa6b68579",
+  "workflow_run_id": "9fad88f8-9cdf-4798-9312-9b7608456b37",
+  "data": {
+    "id": "9fad88f8-9cdf-4798-9312-9b7608456b37",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.19888,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751752302,
+    "finished_at": 1751752302
+  }
+}
+2025-07-06 05:51:42,521 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 05:51:42,521 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 06:51:41 CST)" executed successfully
+2025-07-06 06:51:41,964 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 07:51:41 CST)" (scheduled at 2025-07-06 06:51:41.961822+08:00)
+2025-07-06 06:51:41,966 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 06:51:41,966 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 06:51:41,966 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 06:51:42,201 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 06:51:42,266 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 06:51:42,267 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 06:51:42,267 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "70f1a88a-43d8-48d8-a515-deb4e259b613",
+  "workflow_run_id": "419eaa8b-1d3b-40f8-98e7-aef83ce16961",
+  "data": {
+    "id": "419eaa8b-1d3b-40f8-98e7-aef83ce16961",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.202469,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751755902,
+    "finished_at": 1751755902
+  }
+}
+2025-07-06 06:51:42,271 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 06:51:42,271 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 07:51:41 CST)" executed successfully
+2025-07-06 07:51:42,037 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 08:51:41 CST)" (scheduled at 2025-07-06 07:51:41.961822+08:00)
+2025-07-06 07:51:42,038 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 07:51:42,038 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 07:51:42,038 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 07:51:42,272 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 07:51:42,328 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 07:51:42,328 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 07:51:42,328 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "bd62a8ce-71e0-4dc0-9965-0a7ae74784e4",
+  "workflow_run_id": "b52cf202-2165-4af7-94eb-9058bc41e5fb",
+  "data": {
+    "id": "b52cf202-2165-4af7-94eb-9058bc41e5fb",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.20578,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751759502,
+    "finished_at": 1751759502
+  }
+}
+2025-07-06 07:51:42,333 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 07:51:42,334 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 08:51:41 CST)" executed successfully
+2025-07-06 08:51:41,963 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 09:51:41 CST)" (scheduled at 2025-07-06 08:51:41.961822+08:00)
+2025-07-06 08:51:41,965 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 08:51:41,965 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 08:51:41,965 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 08:51:42,228 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 08:51:42,310 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 08:51:42,311 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 08:51:42,311 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "f1dfcc07-517a-43d8-a7fd-ef268e9b025a",
+  "workflow_run_id": "26757e65-a84d-4dd6-9bdf-04923c8aef01",
+  "data": {
+    "id": "26757e65-a84d-4dd6-9bdf-04923c8aef01",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.23577,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751763102,
+    "finished_at": 1751763102
+  }
+}
+2025-07-06 08:51:42,314 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 08:51:42,314 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 09:51:41 CST)" executed successfully
+2025-07-06 09:51:42,007 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 10:51:41 CST)" (scheduled at 2025-07-06 09:51:41.961822+08:00)
+2025-07-06 09:51:42,008 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 09:51:42,008 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 09:51:42,008 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 09:51:42,247 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 09:51:42,327 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 09:51:42,327 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 09:51:42,328 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "67a960d5-f0f4-4ae2-bcd9-01e20cf477bc",
+  "workflow_run_id": "188e2a4a-da0f-41ab-ba24-f8bc26d32c34",
+  "data": {
+    "id": "188e2a4a-da0f-41ab-ba24-f8bc26d32c34",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {},
+    "error": "",
+    "elapsed_time": 0.225167,
+    "total_tokens": 0,
+    "total_steps": 5,
+    "created_at": 1751766702,
+    "finished_at": 1751766702
+  }
+}
+2025-07-06 09:51:42,331 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 09:51:42,331 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 10:51:41 CST)" executed successfully
+2025-07-06 10:51:42,102 - apscheduler.executors.default - INFO - Running job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 11:51:41 CST)" (scheduled at 2025-07-06 10:51:41.961822+08:00)
+2025-07-06 10:51:42,103 - app.utils - INFO - 🚀 开始执行定时Dify workflow调用
+2025-07-06 10:51:42,103 - app.utils - INFO - 开始调用Dify workflow: http://localhost/v1/workflows/run
+2025-07-06 10:51:42,104 - app.utils - INFO - 请求参数: {"inputs": {}, "response_mode": "blocking", "user": "bilibili-api-server"}
+2025-07-06 10:51:42,428 - httpx - INFO - HTTP Request: GET https://api.bilibili.com/x/v2/reply/up/fulllist?order=1&filter=-1&type=1&pn=1&ps=20&charge_plus_filter=false "HTTP/1.1 200 OK"
+2025-07-06 10:51:46,691 - httpx - INFO - HTTP Request: POST https://api.bilibili.com/x/v2/reply/add "HTTP/1.1 200 OK"
+2025-07-06 10:51:46,693 - app.bilibili.service - INFO - 成功回复评论 267765043488: 感谢您的兴趣！文档链接已在视频简介中提供，快去下载吧~ [笑脸], {'need_captcha': False, 'url': '', 'success_action': 0, 'success_toast': '发送成功', 'success_animation': '', 'rpid': 266666841697, 'rpid_str': '266666841697', 'dialog': 266666841697, 'dialog_str': '266666841697', 'root': 267765043488, 'root_str': '267765043488', 'parent': 267765043488, 'parent_str': '267765043488', 'reply': {'rpid': 266666841697, 'oid': 114721512489989, 'type': 1, 'mid': 3546729949432630, 'root': 267765043488, 'parent': 267765043488, 'dialog': 266666841697, 'count': 0, 'rcount': 0, 'state': 0, 'fansgrade': 0, 'attr': 0, 'ctime': 1751770306, 'mid_str': '3546729949432630', 'oid_str': '114721512489989', 'rpid_str': '266666841697', 'root_str': '267765043488', 'parent_str': '267765043488', 'dialog_str': '266666841697', 'like': 0, 'action': 0, 'member': {'mid': '3546729949432630', 'uname': 'AI乐活圈', 'sex': '男', 'sign': '【AI乐活圈】探索实用AI工具(编程/办公)&最新资讯。助你提升效率，乐享智能科技！欢迎加入圈子！', 'avatar': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'rank': '10000', 'face_nft_new': 0, 'is_senior_member': 0, 'senior': {}, 'level_info': {'current_level': 2, 'current_min': 0, 'current_exp': 0, 'next_exp': 0}, 'pendant': {'pid': 0, 'name': '', 'image': '', 'expire': 0, 'image_enhance': '', 'image_enhance_frame': '', 'n_pid': 0}, 'nameplate': {'nid': 0, 'name': '', 'image': '', 'image_small': '', 'level': '', 'condition': ''}, 'official_verify': {'type': -1, 'desc': ''}, 'vip': {'vipType': 0, 'vipDueDate': 0, 'dueRemark': '', 'accessStatus': 0, 'vipStatus': 0, 'vipStatusWarn': '', 'themeType': 0, 'label': {'path': '', 'text': '', 'label_theme': '', 'text_color': '', 'bg_style': 0, 'bg_color': '', 'border_color': '', 'use_img_label': True, 'img_label_uri_hans': '', 'img_label_uri_hant': '', 'img_label_uri_hans_static': 'https://i0.hdslb.com/bfs/vip/d7b702ef65a976b20ed854cbd04cb9e27341bb79.png', 'img_label_uri_hant_static': 'https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/KJunwh19T5.png'}, 'avatar_subscript': 0, 'nickname_color': ''}, 'fans_detail': None, 'user_sailing': None, 'is_contractor': False, 'contract_desc': '', 'nft_interaction': None, 'avatar_item': {'container_size': {'width': 1.8, 'height': 1.8}, 'fallback_layers': {'layers': [{'visible': True, 'general_spec': {'pos_spec': {'coordinate_pos': 2, 'axis_x': 0.9, 'axis_y': 0.9}, 'size_spec': {'width': 1, 'height': 1}, 'render_spec': {'opacity': 1}}, 'layer_config': {'tags': {'AVATAR_LAYER': {}, 'GENERAL_CFG': {'config_type': 1, 'general_config': {'web_css_style': {'borderRadius': '50%'}}}}, 'is_critical': True}, 'resource': {'res_type': 3, 'res_image': {'image_src': {'src_type': 1, 'placeholder': 6, 'remote': {'url': 'https://i1.hdslb.com/bfs/face/b4af24a860ba7b40b4b38530c419488f6df25159.jpg', 'bfs_style': 'widget-layer-avatar'}}}}}], 'is_critical_group': True}, 'mid': '3546729949432630'}}, 'content': {'message': '感谢您的兴趣！文档链接已在视频简介中提供，快去下载吧~ 【笑脸】', 'members': [], 'jump_url': {}, 'max_line': 6}, 'replies': None, 'assist': 0, 'up_action': {'like': False, 'reply': False}, 'invisible': False, 'reply_control': {'max_line': 6, 'location': 'IP属地：北京', 'translation_switch': 1}, 'folder': {'has_folded': False, 'is_folded': False, 'rule': ''}, 'dynamic_id_str': '0', 'note_cvid_str': '0', 'track_info': ''}}
+2025-07-06 10:51:46,932 - httpx - INFO - HTTP Request: POST http://localhost/v1/workflows/run "HTTP/1.1 200 OK"
+2025-07-06 10:51:46,932 - app.utils - INFO - Dify API响应状态码: 200
+2025-07-06 10:51:46,932 - app.utils - INFO - Dify调用成功，响应数据: {
+  "task_id": "7be17290-3f95-4924-8bfc-9b64aa27e50b",
+  "workflow_run_id": "1d78dedf-147b-42a0-bc01-84c9ce26403b",
+  "data": {
+    "id": "1d78dedf-147b-42a0-bc01-84c9ce26403b",
+    "workflow_id": "c5dfb201-5614-4ba5-b6bf-5df6d41e2568",
+    "status": "succeeded",
+    "outputs": {
+      "result": [
+        "【UP主提示】\n\n您的视频《爆肝20分钟，我把Cursor Rules讲透了！AI编程告别“健忘症”，效率飙升500%》收到了一条来自“Sovic酱”的新评论。\n评论内容：'求文档[星星眼]'\n\n系统已自动回复：'感谢您的兴趣！文档链接已在视频简介中提供，快去下载吧~ [笑脸]'\n\n请关注评论区，必要时可进一步互动。"
+      ]
+    },
+    "error": "",
+    "elapsed_time": 4.688105,
+    "total_tokens": 700,
+    "total_steps": 14,
+    "created_at": 1751770302,
+    "finished_at": 1751770306
+  }
+}
+2025-07-06 10:51:46,935 - app.utils - INFO - ✅ 定时Dify workflow调用成功
+2025-07-06 10:51:46,935 - apscheduler.executors.default - INFO - Job "Dify Workflow定时执行 (每1小时) (trigger: interval[1:00:00], next run at: 2025-07-06 11:51:41 CST)" executed successfully

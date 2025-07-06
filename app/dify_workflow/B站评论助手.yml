@@ -1,0 +1,1035 @@
+app:
+  description: ''
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: workflow
+  name: B站评论助手
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/siliconflow:0.0.15@775950e2071600bd3ba0415ec306c1b1582bc4a2a94688d642f627d112d87cd3
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/dingtalk:0.0.4@1a167a005bd3509142f45f7a771f887c75437ea367840dee9760782a1a1ef082
+kind: app
+version: 0.3.0
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      fileUploadConfig:
+        audio_file_size_limit: 50
+        batch_count_limit: 5
+        file_size_limit: 15
+        image_file_size_limit: 10
+        video_file_size_limit: 100
+        workflow_file_upload_limit: 10
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: true
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: start
+        targetType: http-request
+      id: 1751553352658-source-1751553452686-target
+      selected: false
+      source: '1751553352658'
+      sourceHandle: source
+      target: '1751553452686'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: http-request
+        targetType: code
+      id: 1751553452686-source-1751553664872-target
+      selected: false
+      source: '1751553452686'
+      sourceHandle: source
+      target: '1751553664872'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: code
+        targetType: if-else
+      id: 1751553664872-source-1751553759350-target
+      selected: false
+      source: '1751553664872'
+      sourceHandle: source
+      target: '1751553759350'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: if-else
+        targetType: end
+      id: 1751553759350-false-1751553783765-target
+      selected: false
+      source: '1751553759350'
+      sourceHandle: 'false'
+      target: '1751553783765'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: if-else
+        targetType: iteration
+      id: 1751553759350-true-1751553795114-target
+      selected: false
+      source: '1751553759350'
+      sourceHandle: 'true'
+      target: '1751553795114'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: iteration-start
+        targetType: code
+      id: 1751553795114start-source-1751553869389-target
+      selected: false
+      source: 1751553795114start
+      sourceHandle: source
+      target: '1751553869389'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: code
+        targetType: llm
+      id: 1751553869389-source-1751554053575-target
+      selected: false
+      source: '1751553869389'
+      sourceHandle: source
+      target: '1751554053575'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: llm
+        targetType: code
+      id: 1751554053575-source-1751554520119-target
+      selected: false
+      source: '1751554053575'
+      sourceHandle: source
+      target: '1751554520119'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: code
+        targetType: if-else
+      id: 1751554520119-source-1751554624033-target
+      selected: false
+      source: '1751554520119'
+      sourceHandle: source
+      target: '1751554624033'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: if-else
+        targetType: http-request
+      id: 1751554624033-true-1751557739223-target
+      selected: false
+      source: '1751554624033'
+      sourceHandle: 'true'
+      target: '1751557739223'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: http-request
+        targetType: code
+      id: 1751557739223-source-1751557987845-target
+      selected: false
+      source: '1751557739223'
+      sourceHandle: source
+      target: '1751557987845'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: if-else
+        targetType: code
+      id: 1751554624033-false-1751558049892-target
+      selected: false
+      source: '1751554624033'
+      sourceHandle: 'false'
+      target: '1751558049892'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1751557987845-source-1751558123533-target
+      selected: false
+      source: '1751557987845'
+      sourceHandle: source
+      target: '1751558123533'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: code
+        targetType: variable-aggregator
+      id: 1751558049892-source-1751558123533-target
+      selected: false
+      source: '1751558049892'
+      sourceHandle: source
+      target: '1751558123533'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        sourceType: variable-aggregator
+        targetType: tool
+      id: 1751558123533-source-1751558174980-target
+      selected: false
+      source: '1751558123533'
+      sourceHandle: source
+      target: '1751558174980'
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        isInIteration: false
+        isInLoop: false
+        sourceType: iteration
+        targetType: end
+      id: 1751553795114-source-1751558658736-target
+      selected: false
+      source: '1751553795114'
+      sourceHandle: source
+      target: '1751558658736'
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: ''
+        selected: false
+        title: 开始
+        type: start
+        variables: []
+      height: 54
+      id: '1751553352658'
+      position:
+        x: 80
+        y: 282
+      positionAbsolute:
+        x: 80
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        authorization:
+          config: null
+          type: no-auth
+        body:
+          data: []
+          type: none
+        desc: ''
+        headers: ''
+        method: post
+        params: ''
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 100
+        selected: false
+        ssl_verify: true
+        timeout:
+          max_connect_timeout: 0
+          max_read_timeout: 0
+          max_write_timeout: 0
+        title: HTTP 请求
+        type: http-request
+        url: http://host.docker.internal:8000/api/comments/unreplied
+        variables: []
+      height: 155
+      id: '1751553452686'
+      position:
+        x: 384
+        y: 282
+      positionAbsolute:
+        x: 384
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        code: "import json\n\ndef main(arg1: str) -> list:\n    \"\"\"\n    Parses\
+          \ a JSON string to extract the 'result' list.\n\n    Args:\n        arg1:\
+          \ A JSON string containing a 'result' key with a list value.\n\n    Returns:\n\
+          \        A list extracted from the 'result' key, or an empty list if not\
+          \ found.\n    \"\"\"\n    try:\n        data = json.loads(arg1)\n      \
+          \  return {\n            \"result\": data.get(\"result\", [])\n        }\n\
+          \    except json.JSONDecodeError:\n        print(\"Error: Invalid JSON string\
+          \ provided.\")\n        return {\n            \"result\": []\n        }"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: array[object]
+        selected: false
+        title: 代码执行
+        type: code
+        variables:
+        - value_selector:
+          - '1751553452686'
+          - body
+          variable: arg1
+      height: 54
+      id: '1751553664872'
+      position:
+        x: 688
+        y: 282
+      positionAbsolute:
+        x: 688
+        y: 282
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: not empty
+            id: 4e56c7af-1c47-4d54-8c4d-a53583a50e27
+            value: ''
+            varType: array[object]
+            variable_selector:
+            - '1751553664872'
+            - result
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        selected: false
+        title: 条件分支
+        type: if-else
+      height: 126
+      id: '1751553759350'
+      position:
+        x: 1015.5238106869178
+        y: 339.41496532176126
+      positionAbsolute:
+        x: 1015.5238106869178
+        y: 339.41496532176126
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        outputs: []
+        selected: false
+        title: 结束
+        type: end
+      height: 54
+      id: '1751553783765'
+      position:
+        x: 1482.2359934292235
+        y: 797.5177811866521
+      positionAbsolute:
+        x: 1482.2359934292235
+        y: 797.5177811866521
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    - data:
+        desc: ''
+        error_handle_mode: terminated
+        height: 432
+        is_parallel: false
+        iterator_input_type: array[object]
+        iterator_selector:
+        - '1751553664872'
+        - result
+        output_selector:
+        - '1751558123533'
+        - output
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1751553795114start
+        title: 迭代
+        type: iteration
+        width: 2842
+      height: 432
+      id: '1751553795114'
+      position:
+        x: 1397.9927404906089
+        y: -161.92861651101873
+      positionAbsolute:
+        x: 1397.9927404906089
+        y: -161.92861651101873
+      selected: true
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 2842
+      zIndex: 1
+    - data:
+        desc: ''
+        isInIteration: true
+        selected: false
+        title: ''
+        type: iteration-start
+      draggable: false
+      height: 48
+      id: 1751553795114start
+      parentId: '1751553795114'
+      position:
+        x: 24
+        y: 68
+      positionAbsolute:
+        x: 1421.9927404906089
+        y: -93.92861651101873
+      selectable: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom-iteration-start
+      width: 44
+      zIndex: 1002
+    - data:
+        code: "\ndef main(arg1: dict) -> dict:\n    return {\n        \"title\": arg1[\"\
+          title\"],\n        \"content\": arg1[\"content\"],\n        \"rpid\": arg1[\"\
+          rpid\"],\n        \"oid\": arg1[\"oid\"],\n        \"root\": arg1[\"root\"\
+          ]\n    }\n"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        outputs:
+          content:
+            children: null
+            type: string
+          oid:
+            children: null
+            type: number
+          root:
+            children: null
+            type: number
+          rpid:
+            children: null
+            type: number
+          title:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 2
+        type: code
+        variables:
+        - value_selector:
+          - '1751553795114'
+          - item
+          variable: arg1
+      height: 54
+      id: '1751553869389'
+      parentId: '1751553795114'
+      position:
+        x: 129
+        y: 67
+      positionAbsolute:
+        x: 1526.9927404906089
+        y: -94.92861651101873
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        model:
+          completion_params: {}
+          mode: chat
+          name: Pro/deepseek-ai/DeepSeek-V3
+          provider: langgenius/siliconflow/siliconflow
+        prompt_template:
+        - id: 50ccf06c-b014-458b-a664-f58a091641fb
+          role: system
+          text: "# 角色\n你是一位顶尖的社区运营助手，专门帮助内容创作者（UP主）高效处理视频评论。\n\n# 任务\n你将收到一条评论的内容（content）和它所属的视频标题（title）。你的任务是分析这条评论，并决定一个操作类型（op_type）和对应的回复内容或处理建议（rcontent）。\n\
+            \n# 操作类型（op_type）定义\n- `1` (直接回复): 适用于简单的、积极的、或无需UP主亲自思考的评论。例如感谢、赞美、或者简单提问。\n\
+            - `2` (需要UP主处理): 适用于复杂的、需要专业知识解答的、报告错误的、带有负面情绪的、或者需要UP主亲自决策的评论。\n\n# 内容（rcontent）生成规则\n\
+            - 如果 op_type 为 `1`，`rcontent` 应生成一条可以直接发送给用户的、友好的回复内容。\n- 如果 op_type 为\
+            \ `2`，`rcontent` 应生成一条给UP主的简明扼要的摘要和处理建议。\n\n# 输出格式\n你必须严格按照以下JSON格式输出分析结果，绝对不要添加任何额外的解释或文字。\n\
+            {\n  \"op_type\": <1 或 2>,\n  \"rcontent\": \"<生成的回复内容或处理建议>\"\n}\n\n\
+            # 示例\n---\n输入:\n- title: \"爆肝20分钟，我把Cursor Rules讲透了！\"\n- content: \"\
+            太强了UP主，这个功能解决了我的大问题，感谢！\"\n输出:\n{\n  \"op_type\": 1,\n  \"rcontent\":\
+            \ \"感谢您的认可！能帮到您真是太好了！\"\n}\n---\n输入:\n- title: \"AI编程告别“健忘症”，效率飙升500%\"\
+            \n- content: \"我试了一下，为啥我的Cursor在读取私有仓库的时候会提示授权失败？\"\n输出:\n{\n  \"op_type\"\
+            : 2,\n  \"rcontent\": \"用户遇到了Cursor读取私有仓库时的授权问题，建议UP主询问用户使用的Cursor版本和授权方式，并提供排查思路。\"\
+            \n}"
+        - id: c2e705df-16ee-4ee7-91f1-82469307ea85
+          role: user
+          text: '视频标题: {{#1751553869389.title#}}
+
+            用户评论: {{#1751553869389.content#}}'
+        selected: false
+        structured_output:
+          schema:
+            additionalProperties: false
+            properties:
+              op_type:
+                type: number
+              rcontent:
+                type: string
+            required: []
+            type: object
+        structured_output_enabled: true
+        title: LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 90
+      id: '1751554053575'
+      parentId: '1751553795114'
+      position:
+        x: 432
+        y: 67
+      positionAbsolute:
+        x: 1829.9927404906089
+        y: -94.92861651101873
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "def main(arg1: str) -> dict:\n    \"\"\"\n    尝试将输入字符串 arg1 转换为整数。\n\
+          \    如果转换成功，返回转换后的整数。\n    如果转换失败（即 arg1 无法表示为数字），则返回 2。\n\n    Args:\n\
+          \        arg1: 需要转换的字符串。\n\n    Returns:\n        一个字典，其中 'result' 键包含转换后的整数或默认值\
+          \ 2。\n    \"\"\"\n    try:\n        # 尝试将 arg1 转换为整数\n        result_value\
+          \ = int(arg1)\n    except ValueError:\n        # 如果转换失败（例如 arg1 不是有效的数字字符串），捕获\
+          \ ValueError\n        result_value = 2\n    except TypeError:\n        #\
+          \ 如果 arg1 不是字符串类型（尽管类型提示是str，但以防万一），也返回2\n        result_value = 2\n   \
+          \ \n    return {\n        \"result\": result_value,\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        outputs:
+          result:
+            children: null
+            type: number
+        selected: false
+        title: 代码执行 3
+        type: code
+        variables:
+        - value_selector:
+          - '1751554053575'
+          - structured_output
+          - op_type
+          variable: arg1
+      height: 54
+      id: '1751554520119'
+      parentId: '1751553795114'
+      position:
+        x: 731
+        y: 124
+      positionAbsolute:
+        x: 2128.992740490609
+        y: -37.92861651101873
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        cases:
+        - case_id: 'true'
+          conditions:
+          - comparison_operator: '='
+            id: 56320f6a-a568-4db5-8ffb-593f7acdeb06
+            value: '1'
+            varType: number
+            variable_selector:
+            - '1751554520119'
+            - result
+          id: 'true'
+          logical_operator: and
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        selected: false
+        title: 条件分支 2
+        type: if-else
+      height: 126
+      id: '1751554624033'
+      parentId: '1751553795114'
+      position:
+        x: 1040.9652717139968
+        y: 169.57327031990826
+      positionAbsolute:
+        x: 2438.9580122046054
+        y: 7.6446538088895295
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        authorization:
+          config: null
+          type: no-auth
+        body:
+          data:
+          - id: key-value-1351
+            key: ''
+            type: text
+            value: '{
+
+              "rpid": {{#1751553869389.rpid#}},
+
+              "oid": {{#1751553869389.oid#}},
+
+              "root": {{#1751553869389.root#}},
+
+              "message": "{{#1751554053575.structured_output.rcontent#}}"
+
+              }'
+          type: json
+        desc: ''
+        headers: Content-Type:application/json
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        method: post
+        params: ''
+        retry_config:
+          max_retries: 3
+          retry_enabled: true
+          retry_interval: 100
+        selected: false
+        ssl_verify: true
+        timeout:
+          max_connect_timeout: 0
+          max_read_timeout: 0
+          max_write_timeout: 0
+        title: HTTP 请求 2
+        type: http-request
+        url: http://host.docker.internal:8000/api/comments/reply
+        variables: []
+      height: 139
+      id: '1751557739223'
+      parentId: '1751553795114'
+      position:
+        x: 1446.7485405529476
+        y: 65
+      positionAbsolute:
+        x: 2844.7412810435562
+        y: -96.92861651101873
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "def main(arg1: dict, arg2: dict) -> dict:\n    \"\"\"\n    根据输入的视频评论和LLM生成的自动回复（已发布），生成一条给UP主的提示信息。\n\
+          \n    Args:\n        arg1: 包含视频标题和评论内容的字典。\n              期望包含 'title' (视频标题)\
+          \ 和 'content' (评论内容) 字段。\n        arg2: 包含LLM生成的自动回复内容的字典。\n           \
+          \   期望包含 'rcontent' (LLM生成的自动回复内容) 字段。\n\n    Returns:\n        一个字典，其中\
+          \ 'result' 键包含生成的提示信息字符串。\n    \"\"\"\n    title = arg1.get(\"title\", \"\
+          未知视频\")\n    comment_content = arg1.get(\"content\", \"无评论内容\")\n    llm_auto_reply\
+          \ = arg2.get(\"rcontent\", \"无LLM自动回复内容\")\n    comment_uname = arg1.get(\"\
+          uname\", \"某用户\") # 获取评论者的昵称\n\n    prompt_message = (\n        f\"【UP主提示】\\\
+          n\\n\"\n        f\"您的视频《{title}》收到了一条来自“{comment_uname}”的新评论。\\n\"\n   \
+          \     f\"评论内容：'{comment_content}'\\n\\n\"\n        f\"系统已自动回复：'{llm_auto_reply}'\\\
+          n\\n\"\n        f\"请关注评论区，必要时可进一步互动。\"\n    )\n\n    return {\n        \"\
+          result\": prompt_message,\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 4
+        type: code
+        variables:
+        - value_selector:
+          - '1751553795114'
+          - item
+          variable: arg1
+        - value_selector:
+          - '1751554053575'
+          - structured_output
+          variable: arg2
+      height: 54
+      id: '1751557987845'
+      parentId: '1751553795114'
+      position:
+        x: 1750.7485405529476
+        y: 65
+      positionAbsolute:
+        x: 3148.7412810435562
+        y: -96.92861651101873
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        code: "def main(arg1: dict, arg2: dict) -> dict:\n    \"\"\"\n    根据输入的视频评论和LLM处理意见，生成一条给UP主的提示信息。\n\
+          \n    Args:\n        arg1: 包含视频标题和评论内容的字典。\n              期望包含 'title' (视频标题)\
+          \ 和 'content' (评论内容) 字段。\n        arg2: 包含LLM对评论处理意见的字典。\n             \
+          \ 期望包含 'rcontent' (LLM识别后的处理意见) 字段。\n\n    Returns:\n        一个字典，其中 'result'\
+          \ 键包含生成的提示信息字符串。\n    \"\"\"\n    title = arg1.get(\"title\", \"未知视频\")\n\
+          \    comment_content = arg1.get(\"content\", \"无评论内容\")\n    llm_suggestion\
+          \ = arg2.get(\"rcontent\", \"无LLM处理意见\")\n\n    prompt_message = (\n   \
+          \     f\"【UP主提示】\\n\\n\"\n        f\"您的视频《{title}》收到了新评论。\\n\"\n       \
+          \ f\"评论内容：'{comment_content}'\\n\\n\"\n        f\"AI建议：{llm_suggestion}\\\
+          n\\n\"\n        f\"请参考AI建议，及时处理评论。\"\n    )\n\n    return {\n        \"\
+          result\": prompt_message,\n    }"
+        code_language: python3
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 代码执行 5
+        type: code
+        variables:
+        - value_selector:
+          - '1751553795114'
+          - item
+          variable: arg1
+        - value_selector:
+          - '1751554053575'
+          - structured_output
+          variable: arg2
+      height: 54
+      id: '1751558049892'
+      parentId: '1751553795114'
+      position:
+        x: 1725.3673875767417
+        y: 255.3373659198728
+      positionAbsolute:
+        x: 3123.3601280673506
+        y: 93.40874940885408
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        iteration_id: '1751553795114'
+        output_type: string
+        selected: false
+        title: 变量聚合器
+        type: variable-aggregator
+        variables:
+        - - '1751557987845'
+          - result
+        - - '1751558049892'
+          - result
+      height: 131
+      id: '1751558123533'
+      parentId: '1751553795114'
+      position:
+        x: 2125.688394592217
+        y: 146.22099230582927
+      positionAbsolute:
+        x: 3523.6811350828257
+        y: -15.707624205189461
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        isInIteration: true
+        isInLoop: false
+        is_team_authorization: true
+        iteration_id: '1751553795114'
+        output_schema: null
+        paramSchemas:
+        - auto_generate: null
+          default: null
+          form: form
+          human_description:
+            en_US: access_token in the group robot webhook
+            ja_JP: access_token in the group robot webhook
+            pt_BR: access_token in the group robot webhook
+            zh_Hans: 群自定义机器人webhook中access_token字段的值
+          label:
+            en_US: access token
+            ja_JP: access token
+            pt_BR: access token
+            zh_Hans: access token
+          llm_description: ''
+          max: null
+          min: null
+          name: access_token
+          options: []
+          placeholder: null
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: secret-input
+        - auto_generate: null
+          default: null
+          form: form
+          human_description:
+            en_US: secret key for signing
+            ja_JP: secret key for signing
+            pt_BR: secret key for signing
+            zh_Hans: 加签秘钥
+          label:
+            en_US: secret key for signing
+            ja_JP: secret key for signing
+            pt_BR: secret key for signing
+            zh_Hans: 加签秘钥
+          llm_description: ''
+          max: null
+          min: null
+          name: sign_secret
+          options: []
+          placeholder: null
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: secret-input
+        - auto_generate: null
+          default: null
+          form: llm
+          human_description:
+            en_US: Content to sent to the group.
+            ja_JP: Content to sent to the group.
+            pt_BR: Content to sent to the group.
+            zh_Hans: 群消息文本
+          label:
+            en_US: content
+            ja_JP: content
+            pt_BR: content
+            zh_Hans: 消息内容
+          llm_description: Content of the message
+          max: null
+          min: null
+          name: content
+          options: []
+          placeholder: null
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: string
+        - auto_generate: null
+          default: text
+          form: form
+          human_description:
+            en_US: dingtalk Group bot message type
+            ja_JP: dingtalk Group bot message type
+            pt_BR: dingtalk Group bot message type
+            zh_Hans: 群机器人webhook的消息类型
+          label:
+            en_US: dingtalk Group bot message type
+            ja_JP: dingtalk Group bot message type
+            pt_BR: dingtalk Group bot message type
+            zh_Hans: 群机器人webhook的消息类型
+          llm_description: ''
+          max: null
+          min: null
+          name: message_type
+          options:
+          - label:
+              en_US: Text
+              ja_JP: Text
+              pt_BR: Text
+              zh_Hans: 文本
+            value: text
+          - label:
+              en_US: Markdown
+              ja_JP: Markdown
+              pt_BR: Markdown
+              zh_Hans: Markdown
+            value: markdown
+          placeholder: null
+          precision: null
+          required: true
+          scope: null
+          template: null
+          type: select
+        params:
+          access_token: ''
+          content: ''
+          message_type: ''
+          sign_secret: ''
+        provider_id: langgenius/dingtalk/dingtalk
+        provider_name: langgenius/dingtalk/dingtalk
+        provider_type: builtin
+        selected: false
+        title: 发送群消息
+        tool_configurations:
+          access_token: 5368ca1ec302d36fe490f65272cdc371cb138612cb8113d2035dc1a35daa71d1
+          message_type: text
+          sign_secret: SEC4c7e2e827d8dab6332ea753c305044c507374b9498ef154bde39ed720a021c2a
+        tool_description: 通过钉钉的群机器人webhook发送群消息
+        tool_label: 发送群消息
+        tool_name: dingtalk_group_bot
+        tool_parameters:
+          content:
+            type: mixed
+            value: '{{#1751558123533.output#}}'
+        type: tool
+      height: 142
+      id: '1751558174980'
+      parentId: '1751553795114'
+      position:
+        x: 2429.688394592217
+        y: 146.22099230582927
+      positionAbsolute:
+        x: 3827.6811350828257
+        y: -15.707624205189461
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+      zIndex: 1002
+    - data:
+        desc: ''
+        outputs:
+        - value_selector:
+          - '1751553795114'
+          - output
+          variable: result
+        selected: false
+        title: 结束 2
+        type: end
+      height: 90
+      id: '1751558658736'
+      position:
+        x: 4396.136884215604
+        y: 347.8214483182837
+      positionAbsolute:
+        x: 4396.136884215604
+        y: 347.8214483182837
+      selected: false
+      sourcePosition: right
+      targetPosition: left
+      type: custom
+      width: 244
+    viewport:
+      x: 113.97459673544392
+      y: 337.546036129943
+      zoom: 0.26683133450998964
