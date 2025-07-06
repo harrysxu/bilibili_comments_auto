@@ -27,7 +27,8 @@ def analyze_comments(result, mid):
             'parent': comment.get('parent'),
             'content': comment.get('content', {}).get('message', ''),
             'title': comment.get('title', ''),  # 直接从评论对象获取标题
-            'uname': comment.get('member', {}).get('uname', '')
+            'uname': comment.get('member', {}).get('uname', ''),
+            "bvid": comment.get('bvid', '')
         }
         all_comments.append(comment_info)
         
@@ -55,7 +56,7 @@ def analyze_comments(result, mid):
         
         if not has_reply:
             unreplied_comments.append(comment)
-    
+    print(f"未回复的评论: {unreplied_comments}")
     return unreplied_comments
 
 

@@ -17,7 +17,6 @@
 - 📖 **自动生成API文档** - Swagger/OpenAPI 支持
 - 🔧 **模块化架构** - 清晰的代码组织结构
 - 📝 **详细日志记录** - 完整的操作追踪
-- ⚡ **高速包管理** - 使用uv实现极速依赖安装
 
 ## 🏗️ 项目结构
 
@@ -32,8 +31,6 @@ bilibili-api-server/
 │   │   └── service.py     # B站API业务逻辑
 │   ├── dify/              # Dify集成模块
 │   │   └── service.py     # Dify工作流服务
-│   ├── dify_workflow/     # Dify工作流文件
-│   │   └── B站评论助手.yml # 预配置工作流DSL
 │   ├── config.py          # 配置管理
 │   ├── models.py          # 数据模型定义
 │   └── utils.py           # 工具函数
@@ -56,18 +53,13 @@ bilibili-api-server/
 git clone <repository-url>
 cd bilibili-api-server
 
-# 安装uv（如果尚未安装）
-curl -LsSf https://astral.sh/uv/install.sh | sh
-# 或者使用pip安装：pip install uv
+# 创建虚拟环境
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# 或 venv\Scripts\activate  # Windows
 
-# 使用uv创建虚拟环境并安装依赖
-uv venv
-source .venv/bin/activate  # Linux/Mac
-# 或 .venv\Scripts\activate  # Windows
-
-# 使用uv安装依赖（比pip更快）
-uv pip install -r requirements.txt
-uv pip install bilibili-api-dev
+# 安装依赖
+pip install -r requirements.txt
 ```
 
 ### 2. 配置设置
@@ -87,48 +79,7 @@ DIFY_API_KEY = "你的Dify API Key"
 DIFY_BASE_URL = "http://localhost/v1"  # 你的Dify服务地址
 ```
 
-#### Dify工作流导入配置
-项目提供了预配置的B站评论助手工作流，需要导入到您的Dify实例中：
-
-**步骤1：准备工作流文件**
-工作流文件位于：`app/dify_workflow/B站评论助手.yml`
-
-**步骤2：导入到Dify**
-1. 登录您的Dify管理界面
-2. 进入「工作流」页面
-3. 点击「导入DSL」按钮
-4. 选择 `app/dify_workflow/B站评论助手.yml` 文件
-5. 确认导入设置并点击「导入」
-
-**步骤3：配置工作流**
-导入后需要配置以下内容：
-- **API端点**: 确保工作流中的HTTP请求节点指向正确的API地址
-- **认证信息**: 根据需要配置API认证
-- **参数设置**: 调整工作流参数以匹配您的使用场景
-
-**步骤4：获取API密钥**
-1. 在Dify中找到导入的「B站评论助手」工作流
-2. 点击「API」选项卡
-3. 复制API Key到 `dify_config.py` 中的 `DIFY_API_KEY`
-
-**步骤5：测试工作流**
-```bash
-# 测试工作流是否正常工作
-curl -X POST http://localhost:8000/api/dify/call
-```
-
-### 3. 导入Dify工作流（重要）
-
-**⚠️ 在启动服务前，请先完成Dify工作流的导入配置：**
-
-1. 确保您的Dify实例正在运行
-2. 将 `app/dify_workflow/B站评论助手.yml` 导入到Dify中
-3. 配置工作流参数并获取API密钥
-4. 更新 `dify_config.py` 中的配置信息
-
-详细步骤请参考上方的「Dify工作流导入配置」部分。
-
-### 4. 启动服务
+### 3. 启动服务
 
 #### 方式一：使用启动脚本（推荐）
 
@@ -344,22 +295,6 @@ curl http://localhost:8000/health
 
 ## ⚙️ 配置说明
 
-### uv包管理器优势
-使用uv替代传统的pip和venv，享受以下优势：
-- **极速安装**: 比pip快10-100倍的包安装速度
-- **统一管理**: 集成虚拟环境和包管理功能
-- **更好兼容**: 完全兼容pip生态系统
-- **内存优化**: 更高效的依赖解析算法
-
-```bash
-# uv常用命令
-uv venv                    # 创建虚拟环境
-uv pip install package    # 安装包
-uv pip list               # 列出已安装包
-uv pip freeze             # 导出依赖列表
-uv self update            # 更新uv自身
-```
-
 ### 环境变量配置
 创建 `.env` 文件进行个性化配置：
 
@@ -403,13 +338,6 @@ LOG_LEVEL=INFO
 
 ## 📋 依赖包说明
 
-### 包管理工具
-- **uv**: 极速Python包管理器，替代pip和venv
-  - 安装速度比pip快10-100倍
-  - 内置虚拟环境管理
-  - 更好的依赖解析
-
-### 核心依赖
 - **FastAPI**: 现代高性能的Web框架
 - **uvicorn**: ASGI服务器
 - **pydantic**: 数据验证和设置管理
@@ -434,40 +362,24 @@ LOG_LEVEL=INFO
 2. **虚拟环境问题**
    ```bash
    # 重新创建虚拟环境
-   rm -rf .venv
-   uv venv
-   source .venv/bin/activate
-   uv pip install -r requirements.txt
+   rm -rf venv
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
    ```
 
 3. **依赖包问题**
    ```bash
-   # 更新uv
-   uv self update
+   # 更新pip
+   pip install --upgrade pip
    # 重新安装依赖
-   uv pip install -r requirements.txt --force-reinstall
-   uv pip install bilibili-api-dev
+   pip install -r requirements.txt --force-reinstall
    ```
 
 4. **Dify连接问题**
    - 检查Dify服务是否正常运行
    - 验证API Key是否正确
    - 确认网络连接正常
-
-5. **工作流导入问题**
-   ```bash
-   # 检查工作流文件是否存在
-   ls -la app/dify_workflow/B站评论助手.yml
-   
-   # 验证工作流文件格式
-   head -20 app/dify_workflow/B站评论助手.yml
-   ```
-   
-   **常见导入错误：**
-   - 确保Dify版本兼容（推荐0.3.0+）
-   - 检查工作流文件编码格式（UTF-8）
-   - 验证所需的插件是否已安装
-   - 确认工作流中的API端点地址正确
 
 ## 📖 详细文档
 
@@ -477,7 +389,6 @@ LOG_LEVEL=INFO
 - **[完整接口文档](docs/api-documentation.md)** - 详细的API文档
 - **[产品需求文档](docs/prd.md)** - 产品功能规划
 - **[Dify集成指南](dify_integration_guide.md)** - Dify功能使用说明
-- **[Dify工作流使用说明](Dify_Workflow_使用说明.md)** - 工作流配置和使用指南
 - **[重构总结](重构总结.md)** - 项目重构说明
 
 ## 🎯 版本信息

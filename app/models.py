@@ -29,6 +29,7 @@ class CommentInfo(BaseModel):
     content: str
     title: str
     uname: str
+    bvid: str
 
 
 class UnrepliedCommentsResponse(BaseModel):
